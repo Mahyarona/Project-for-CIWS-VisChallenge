@@ -17,7 +17,7 @@ The goal of developing this App is to first detect the signals and then estimate
 
 ### 1. How to prepare the datasets for the App
 To run the APP, users only need to import the data (i.e., in CSV format file) in **.mat** format and define a period for the anlaysis. To convert data from .csv into .mat, the user needs to import the .csv file using the collowing icon of the Matlab software and then save it as **Data**. 
-<img src="https://github.com/Mahyarona/Project-for-CIWS-VisChallenge/tree/master/images/ImportData.jpeg" width="50" height="50"
+<img src="https://github.com/Mahyarona/Project-for-CIWS-VisChallenge/tree/master/images/ImportData.jpeg" width="50" height="50">
 
 For analysis period, a user can define the starting and ending time using **pop of menu** in the APP.
 
