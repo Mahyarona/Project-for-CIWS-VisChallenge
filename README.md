@@ -7,7 +7,7 @@ This App and its results could be used to visualize and analyze high resolution 
 ## What do you expect to see as the result of this APP?
 
 
-## Objectives and Introduction
+## APP Description
 The goal of developing this App is to first detect the signals and then estimate and disaggregate the volume and duration of residential water usage into common water usage categories (i.e., the eight categories mentioned above). The proposed algorithm detects the signals . Even though this algorithm may not be as accurate as other algorithms such as Hidden Markov Model in litreture, it is faster than those of algorithms in terms of computational time. This README document is prepared in three different parts:
 
   1. How to prepare the datasets for the App
