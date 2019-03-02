@@ -20,3 +20,6 @@ Following is an example of what the results of this GUI look like.
 
 
 ![alt text](Example.jpeg)
+
+## Contact Information
+For information about the GUI or if you have general questions, contact Mahyar Aboutalebi at m.aboutalebi@aggiemail.usu.edu
