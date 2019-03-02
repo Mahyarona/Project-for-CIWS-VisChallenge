@@ -18,6 +18,5 @@ Following is an example of what the results of this GUI look like.
 ## How to interpret the results?
 
 
-http://github.com - automatic!
-[GitHub](http://github.com)
-![](image.png)
+
+![alt text](Example.jpeg)
