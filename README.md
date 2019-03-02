@@ -5,7 +5,7 @@ This repository introduces an algorithm developed as an APP in Geographical User
 This App and its results could be used to visualize and analyze high resolution water use data that would be useful for both water users and water providers. The advantage of the developed GUI is that it is easily understandable and may provide actionable information. For example, homeowner can see their water use visually and may change their behavior based on the information shown in this GUI. 
 
 ## What do you expect to see as the result of this APP?
-<img src="" width="600" height="400">
+<img src="https://github.com/Mahyarona/Project-for-CIWS-VisChallenge/blob/master/images/First_API.png?raw=true" width="700" height="400">
 
 ## Objective  
 The goal of developing this App is to first detect the signals and then estimate and disaggregate the volume and duration of residential water usage into common water usage categories (i.e., the eight categories mentioned above). Even though this algorithm may not be as accurate as other algorithms such as Hidden Markov Model in literature, it is faster than those of algorithms. 
@@ -44,7 +44,7 @@ Applying the unsupervised classification method leads to labeling the 18 classes
 
 Finally, the bar and pic chart are used in this model to show the estimated water usage volume and duration, respectively, in each class. The results shown in the table can be exported as a CSV file if the user needs to use it in other analyses. 
 
-<img src="" width="600" height="400">
+<img src="https://github.com/Mahyarona/Project-for-CIWS-VisChallenge/blob/master/images/Last_API.png?raw=true" width="700" height="400">
 
   ### 3. Summary of steps to run the APP
 The APP is developed in MATLAB and a user just need to (1) import the data in **.mat** format using *import* push button, (2) define the time period for which he/she wants to see results using *pop up menu*, and (3) run the APP using *Run model* button to get results. 
