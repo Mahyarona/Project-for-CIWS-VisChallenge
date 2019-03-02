@@ -7,7 +7,7 @@ This App and its results could be used to visualize and analyze high resolution 
 ## What do you expect to see as the result of this APP?
 
 
-## Objective and 
+## Objective  
 The goal of developing this App is to first detect the signals and then estimate and disaggregate the volume and duration of residential water usage into common water usage categories (i.e., the eight categories mentioned above). Even though this algorithm may not be as accurate as other algorithms such as Hidden Markov Model in literature, it is faster than those of algorithms. 
 
 ## Documentation
@@ -18,7 +18,7 @@ This README document is prepared in three different parts:
   3. Summary of steps to run the APP
 
 
-### 1. How to prepare the datasets for the App
+  ### 1. How to prepare the datasets for the App
 To run the APP, users only need to import the data (i.e., in CSV format file) in **.mat** format and define a period for the analysis. To convert data from .csv into .mat, the user needs to import the .csv file using the following icon of MATLAB software and then save it as **Data**. 
 
 <img src="https://github.com/Mahyarona/Project-for-CIWS-VisChallenge/tree/master/images/ImportData.png" width="100" height="100">
@@ -26,7 +26,7 @@ To run the APP, users only need to import the data (i.e., in CSV format file) in
 For analysis period, a user can define the starting and ending time using **pop of menu** in the APP.
 
 
-### 2. How does the proposed algorithm cluster the signals into aforementioned categories
+  ### 2. How does the proposed algorithm cluster the signals into aforementioned categories
 First, the data must be converted to **TimeTable** format. Next, several thresholds must be defined to separate all pulses into initial classes. These initial classes can be defined by users using the histogram or sorted values of pulses. These two graphs can be extracted and inspected for the entire datasets to define thresholds. Note that these are just initial thresholds that can be easily detected by users at the first step. Later, these initial thresholds are used to help the unsupervised classification procedure that is defined in the next step. The following shows examples of the histogram and sorted values of pulses for the given dataset (a 3-month period). 
 
 
@@ -40,7 +40,7 @@ Finally, the bar and pic chart are used in this model to show the estimated wate
 
 
 
-### 3. Summary of steps to run the APP
+  ### 3. Summary of steps to run the APP
 The APP is developed in MATLAB and a user just need to (1) import the data in **.mat** format using *import* push button, (2) define the time period for which he/she wants to see results using *pop up menu*, and (3) run the APP using *Run model* button to get results. 
 
 ## Contact Information
