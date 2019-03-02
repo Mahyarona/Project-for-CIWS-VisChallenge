@@ -29,6 +29,9 @@ For analysis period, a user can define the starting and ending time using **pop 
   ### 2. How does the proposed algorithm cluster the signals into aforementioned categories
 First, the data must be converted to **TimeTable** format. Next, several thresholds must be defined to separate all pulses into initial classes. These initial classes can be defined by users using the histogram or sorted values of pulses. These two graphs can be extracted and inspected for the entire datasets to define thresholds. Note that these are just initial thresholds that can be easily detected by users at the first step. Later, these initial thresholds are used to help the unsupervised classification procedure that is defined in the next step. The following shows examples of the histogram and sorted values of pulses for the given dataset (a 3-month period). 
 
+<img src="https://github.com/Mahyarona/Project-for-CIWS-VisChallenge/tree/master/images/Histogram.png" width="600" height="400">
+
+<img src="https://github.com/Mahyarona/Project-for-CIWS-VisChallenge/tree/master/images/Ranked.png" width="600" height="100">
 
 According to these figures, it is obvious that there are some patterns and pulses which can be classified into different classes. In other words, similar pulses can be categorized as one class (category). These graphs indicate that the high value pulses rarely occurred. In contrast, the frequency of the low pulses is very high. Therefore, we need to separate high, medium, and low value pulses such that to be able to analyze the data in detail. For example, a user can define two thresholds (15 and 30) to separate the high, medium, and low value pulses. 
 
