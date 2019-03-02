@@ -18,8 +18,7 @@ Following is an example of what the results of this GUI look like.
 ## How to interpret the results?
 
 
-
-![alt text](Example.jpeg)
+<img src="https://github.com/Mahyarona/Project-for-CIWS-VisChallenge/edit/master/Example.jpeg" width="400" height="790">
 
 ## Contact Information
 For information about the GUI or if you have general questions, contact Mahyar Aboutalebi at m.aboutalebi@aggiemail.usu.edu
