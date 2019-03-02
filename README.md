@@ -1,2 +1,3 @@
-# Project-for-CIWS-VisChallenge
-GUI developed for Cyberinfrasructure for Intelligent Water Supply Data Visualization Challenge
+# GUI developed for Cyberinfrasructure for Intelligent Water Supply Data Visualization Challenge
+
+This repository contains codes and GUI developed for Cyberinfrastructure for Intelligent Water Supply Data Visualization Challenge (https://github.com/UCHIC/CIWS-VisChallenge). The codes and GUI could be used to visualize analyze high-resolution water use data that would be useful for both water users and water providers. The advantage of the developed GUI is that it is easily understandable and may provide actionable information. For example, homeowner can see their water use visually and may change their behavior based on the information shown in this GUI. 
