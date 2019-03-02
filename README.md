@@ -12,22 +12,21 @@ The goal of developing this App is to first detect the signals and then estimate
 
   1. How to prepare the datasets for the App
   2. How does the proposed algorithm cluster the signals into aformentioned categories
-  3. Description of the GUI
+  3. Summary of steps to run the APP
 
 
 ### 1. How to prepare the datasets for the App
 To run the APP, users only need to import the data (i.e., in CSV format file) in **.mat** format and define a period for the anlaysis. To convert data from .csv into .mat, the user needs to import the .csv file using the collowing icon of the Matlab software and then save it as **Data**. 
 <img src="https://github.com/Mahyarona/Project-for-CIWS-VisChallenge/blob/master/images/ImportData.jpeg" width="400" height="400"
 
-### 2. WHow does the proposed algorithm cluster the signals into aformentioned categories
+For analysis period, a user can define the starting and ending time using **pop of menu** in the APP.
 
 
-### 3. Description of the GUI
+### 2. How does the proposed algorithm cluster the signals into aformentioned categories
+First, the data must be converted to **TimeTable** format. 
 
-
-
-
-
+### 3. Summary of steps to run the APP
+The APP is developed in MATLAB and a user just need to (1) import the data in **.mat** format using *import* push button, (2) define the time period for which he/she wants to see results using *pop up menu*, and (3) run the APP using *Run model* button to get results. 
 
 ## Contact Information
 For information about the GUI or if you have general questions, contact Mahyar Aboutalebi at m.aboutalebi@aggiemail.usu.edu
