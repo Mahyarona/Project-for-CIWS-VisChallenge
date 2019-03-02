@@ -40,7 +40,7 @@ For example, let's say we consider 18 different classes for the pulses. One migh
 
 Applying the unsupervised classification method leads to labeling the 18 classes into eight classes and with matching those classes with the order reported in [Residential End Uses of Water](http://www.waterrf.org/PublicReportLibrary/4309A.pdf), the eight classes can be labeled. Therefore, duration and water volume can be calculated in each categories.
 
-<img src="https://github.com/Mahyarona/Project-for-CIWS-VisChallenge/blob/master/images/EightClassTable.png?raw=true" width="600" height="400">
+<img src="https://github.com/Mahyarona/Project-for-CIWS-VisChallenge/blob/master/images/EightClassTable.png?raw=true" width="500" height="200">
 
 Finally, the bar and pic chart are used in this model to show the estimated water usage volume and duration, respectively, in each class. The results shown in the table can be exported as a CSV file if the user needs to use it in other analyses. 
 
